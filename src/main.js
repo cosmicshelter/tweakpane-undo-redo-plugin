@@ -76,10 +76,14 @@ export default function addUndoRedoFeature(Tweakpane) {
   });
 
   return {
-      destroy: () => {
-          redoStack = [];
-          undoStack = [];
-          window.removeEventListener('keydown', keydownHandler);
-      }
+    clear() {
+        redoStack = [];
+        undoStack = [];
+    },
+    destroy: () => {
+        redoStack = [];
+        undoStack = [];
+        window.removeEventListener('keydown', keydownHandler);
+    }
   }
 }
