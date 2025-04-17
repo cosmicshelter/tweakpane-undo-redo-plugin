@@ -29,6 +29,11 @@ const undoRedoFeature = addUndoRedoFeature(Tweakpane);
 undoRedoFeature.destroy();
 ```
 
+## Disclamer
+
+I had to make my way around the official Tweakpane API to make this work, using internal methods etc...
+It might not work properly for Tweakpane versions other than v4.0.5.
+
 ## Roadmap
 
 - More testing
