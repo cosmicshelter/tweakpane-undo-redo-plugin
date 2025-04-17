@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install github:leochocolat/tweakpane-undo-redo-plugin
+npm install github:cosmicshelter/tweakpane-undo-redo-plugin
 ```
 
 ## Usage
