@@ -8,7 +8,7 @@ npm install github:cosmicshelter/tweakpane-undo-redo-plugin
 
 ## Usage
 
-```bash
+```js
 import addUndoRedoFeature from 'tweakpane-undo-redo-plugin';
 import * as Tweakpane from 'tweakpane';
 
@@ -17,14 +17,14 @@ addUndoRedoFeature(Tweakpane);
 
 If needed, you can call clear to empty the action history stack : 
 
-```bash
+```js
 const undoRedoFeature = addUndoRedoFeature(Tweakpane);
 undoRedoFeature.clear();
 ```
 
 You can also call destroy to clear the history and remove the keydown event listener :
 
-```bash
+```js
 const undoRedoFeature = addUndoRedoFeature(Tweakpane);
 undoRedoFeature.destroy();
 ```
