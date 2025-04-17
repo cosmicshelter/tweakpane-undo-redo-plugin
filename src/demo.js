@@ -1,9 +1,9 @@
 import './style.css'
 import * as THREE from 'three';
 import * as Tweakpane from 'tweakpane';
-import addUndoRedoFeature from './main';
+// import addUndoRedoFeature from './main';
 
-addUndoRedoFeature(Tweakpane);
+// addUndoRedoFeature(Tweakpane);
 
 /**
  * Setup Three
